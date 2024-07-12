@@ -1,0 +1,393 @@
+body {
+    background-color: black;
+    margin: 0;
+    height: 720px;
+    width: 100%;
+    margin-bottom: 0px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    margin-top: 15px;
+    width: 100%;
+    height: 50px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 13px;
+
+    /* border: solid 1px red; */
+}
+
+header p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.user_logo img {
+    margin: 3px;
+    width: 45px;
+}
+
+.second_header {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.lvl {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.lvl p {
+
+    margin: 0px;
+}
+
+.Bar_prog{
+    width: 100px;
+    height: 15px;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.prog{
+    border: solid 1px gray;
+    height: 7px;
+    width: 115px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.visu_prog{
+    width: 50%;
+    height: 7px;
+    background: linear-gradient(90deg, rgba(217,25,4,1) 1%, rgba(238,110,4,1) 53%, rgba(0,255,106,1) 100%, rgba(255,10,10,1) 100%);
+    border-radius: 0px 5px 5px 0px;
+}
+
+.main_container {
+    /* background-image: url('https://zupimages.net/up/24/28/54pr.png'); */
+    background-color: #1C1F24;
+    border-radius: 6%;
+    width: 100%;
+    height: 88vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    margin-top: 20px;
+}
+
+.money_hour{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 235px;
+    border-radius: 50px;
+    border: solid 2px gray;
+    overflow: hidden;
+    height: 40px;
+}
+
+/* .blur_effect{
+    background-color: #BCBCBC;
+    filter: blur(50px);
+    -webkit-filter: blur(50px);
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    
+} */
+
+.plateform img {
+    margin-left: 10px;
+    width: 35px;
+}
+
+.profit {
+    display: flex;
+    flex-direction: column;
+}
+
+.money {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.icon img{
+    width: 18px;
+    margin-right: 7px;
+}
+
+.argent {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-right: 7px;
+}
+
+.info img {
+    width: 17px;
+}
+
+.settings img {
+    align-content: center;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.separrateur {
+    border: solid 1px grey;
+    height: 30px;
+}
+
+.defi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.gain {
+    background-color: #272A2F;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    border-radius: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+.gain p {
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.gain img {
+    margin-top: 3px;
+    width: 60px;
+    height: 60px;
+}
+
+.chiffre {
+    background-color: #272A2F;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    border-radius: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+#time {
+    color: #6E7176;
+}
+.chiffre p {
+    margin: 0px;
+    margin-bottom: 18px;
+}
+
+.chiffre img {
+    margin-top: 3px;
+    width: 70px;
+    height: 60px;
+}
+
+.combo {
+    background-color: #272A2F;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    border-radius: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+
+.combo p {
+    margin: 0px;
+    margin-bottom: 18px;
+}
+
+.combo img {
+    margin-top: 3px;
+    width: 60px;
+    height: 60px;
+}
+    
+.money_total {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.money_view {
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    text-align: center;
+    padding: 2px;
+}
+
+#icon2 img{
+    width: 30px;
+}
+
+.tap_img {
+    display: flex;
+    justify-content: center;
+}
+
+.tap_img img {
+    width: 220px;
+}
+
+.boost {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nbr_charges {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 15px;
+
+    /* border: solid 1px red; */
+}
+
+.nbr_charges img {
+    width: 40px;
+}
+
+.nbr_charges p {
+    padding-left: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.boost_buy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    height: 35px;
+    margin-right: 15px;
+    background-color: #101114;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.boost_buy img {
+    width: 35px;
+    height: 35px;
+}
+
+.boost_buy p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1C1F24;
+}
+
+.background_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    height: 70px;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: #272A2F;
+    
+    flex-shrink: 0;
+}
+
+#names_categ {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 11px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.exchange img {
+    padding-bottom: 0px;
+    width: 40px;
+}
+
+.miner img {
+    padding-top: 6px;
+    width: 36px;
+    padding-bottom: 0px;
+}
+
+.amis img {
+    padding-top: 6px;
+    width: 38px;
+    padding-bottom: 0px;
+}
+
+.gagner img {
+    padding-top: 6px;
+    width: 36px;
+    padding-bottom: 0px;
+}
+
+.airdrop img {
+    padding-top: 6px;
+    width: 36px;
+    padding-bottom: 0px;
+}
+
+.exchange  {
+    align-content: center;
+}
+
+.miner  {
+    align-content: center;
+}
+
+.amis  {
+    align-content: center;
+}
+
+.gagner  {
+    align-content: center;
+}
+
+.airdrop  {
+    align-content: center;
+}
